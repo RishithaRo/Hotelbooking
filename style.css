@@ -1,0 +1,283 @@
+body{
+    background:maroon;
+    header{
+        color:burlywood;
+        display:flex;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        height:80px;
+        box-sizing: border-box;
+    }
+        .icon{
+            color:gold;
+            margin-top:10px;
+        }
+    header button{
+        color:burlywood;
+        background: rgba(166, 63, 26, 0.427);
+        border-color:brown;
+        border-width:0px;
+        border-radius:10px;
+        margin-left:1100px;
+        padding:0px 20px;
+    }
+    header button:hover{
+        box-sizing: border-box;
+        background:brown;
+        box-shadow: 10px 10px 30px gold;
+        font-family: fantasy;
+        transition:2s;
+    }
+    nav{
+        background:burlywood;
+        margin: 10px 100px;
+        
+    }
+    nav a{
+        text-decoration:none;
+        color:rgb(50, 3, 3);
+        display:inline-block;
+        height:50px;
+        margin-left:140px;
+        margin-top:25px;
+        text-align: center;
+        font-size: 20px;
+        font-weight:lighter;
+    }
+    .images{
+        margin-left:140px;
+    }
+    /*
+    nav a:hover{
+        background:rgb(17, 3, 3);
+        color:bisque;
+        border-radius: 0px 40px 0px 40px;
+    }
+        */
+    .hi{
+        display:flex;
+        margin-left:140px;
+    }
+    .hi button{
+        margin-left:1050px;
+        border-radius:10px;
+        padding:10px;
+        background:brown;
+        color:bisque;
+        border:0px;
+    }
+
+    .hi button:hover{
+        background:bisque;
+        color:darkred;
+    }
+    .hi p{
+        font-size:20px;
+        color:bisque;
+    }
+    .hello{
+        display:flex;
+        justify-content: space-evenly;
+    }
+
+    .hello p{
+        color:blanchedalmond;
+    }
+
+    .box{
+        padding: 10px;
+        border-bottom:10px solid darkred;
+        border-radius:10px;
+        background:brown;
+        color:bisque;
+        border-top:0px;
+        border-right:0px;
+        border-left:0px;
+    }
+    
+    .availb button{
+        border-radius:10px;
+        padding:10px;
+        background:brown;
+        color:bisque;
+        border:0px;
+        margin-left:140px;
+        margin-top:10px;
+    }
+
+    .availb button:hover{
+        background:bisque;
+        color:darkred;
+    }
+
+    #about h1{
+        text-align:center;
+        color:blanchedalmond;
+        font-style:italic;
+        font-weight: bolder;
+        font-size:30px;
+        line-height: 40px;
+    }
+
+    #about h1:hover{
+        font-family:'Times New Roman', Times, serif;
+        font-size:50px;
+        line-height: 40px;
+        transition: 72ms;
+    }
+    .hehe{
+        display: flex;
+    }
+
+    .hehe img{
+        border-radius:10px;
+    }
+    .para{
+        box-sizing: border-box;
+        font-size:30px;
+        color:rgba(245, 245, 220, 0.548);
+        margin-top:30px;
+        margin-left:30px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .para:hover{
+        color:bisque;
+    }
+    
+    .gallery{
+        display:flex;
+    }
+
+    .gallery h1{
+        
+        font-size: 50px;
+        margin-left:640px;
+        color: white;
+
+    }
+
+    .gallery h1:hover{
+        color:antiquewhite;
+        font-size: 80px;
+        transition:2s;
+    }
+
+    .images1{
+        border-radius:10px;
+        margin-top:10px;
+    }
+    .gallery1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .images1:hover{
+        box-shadow:0px 0px 80px gold;
+    }
+
+    #kk{
+        color:antiquewhite;
+        font-size: 80px;
+        margin-left:440px;
+        transition:2s;
+    }
+    #services h1{
+        color:navajowhite;
+        font-size:30px;
+        text-align:center;
+    }
+
+    .yoga{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .dining{
+        display:flex;
+        flex-direction:row-reverse;
+        justify-content: space-evenly;
+    }    
+    .para11{
+        box-sizing: border-box;
+        font-size:15px;
+        color:rgb(185, 174, 161);
+        margin-top:30px;
+        margin-left:30px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .wifi{
+        display: flex;
+        margin-top:40px;
+    }
+
+    #form h1{
+        color:bisque;
+        font-size:80px;
+        margin-left:540px;
+    }
+    
+    #form h1:hover{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:100px;
+        transition:2s;
+    }
+
+    .formbro{
+        padding:10px;
+    }
+
+
+    .formbro{
+
+        margin-left:540px;
+        width:440px;
+        height:440px;
+        background:maroon;
+    }
+
+    .formbro button{
+        width:440px;
+        height:10%;
+        background:brown;
+        color:burlywood;
+        border:0px 0px 10px 0px solid brown;
+        border:0px 0px 10px 0px;
+        border-color:darkred;
+        border-style:solid;
+        border-radius:10px;
+    }
+    
+    .formbro button:hover
+    {
+        color:darkred;
+        background:bisque;
+    }
+
+    .formbro p{
+        color:bisque;
+
+    }
+
+
+
+    .formbro input{
+        margin-top:10px;
+        width:430px;
+        height:10%;
+        background:brown;
+        color:burlywood;
+        border:0px 0px 10px 0px;
+        border-color:darkred;
+        border-style:solid;
+    }
+
+    textarea {
+        width:430px;
+        height:100px;
+        background:brown;
+        color:burlywood;
+        border:0px 0px 10px 0px;
+        border-color:darkred;
+        border-style:solid;
+    }
